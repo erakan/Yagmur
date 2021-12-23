@@ -1,0 +1,193 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Turkish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_TRK)
+#ifdef _WIN32
+LANGUAGE LANG_TURKISH, SUBLANG_DEFAULT
+#pragma code_page(1254)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_YAGMUR              ICON    DISCARDABLE     "res\\yagmur.ico"
+IDI_SIMSEK              ICON    DISCARDABLE     "res\\Simsek.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_YAGMUR MENU DISCARDABLE 
+BEGIN
+    POPUP "&Yağmur Menüsünü Açmak İçin Tıklayın!"
+    BEGIN
+        MENUITEM "&Sesini Kıs/Aç",              IDM_PAUSE
+        MENUITEM "Gizl&e/Göster",               IDM_GIZLE
+        MENUITEM SEPARATOR
+        MENUITEM "&Hakkında...",                IDM_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "Çı&kış",                      IDM_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_YAGMUR ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  22, 17, 230, 142
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "Hakkında..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_YAGMUR,IDC_MYICON,7,16,20,20
+    CTEXT           "Yagmur Version 0.1",IDC_STATIC,36,5,188,8,SS_NOPREFIX
+    CTEXT           "2 Nisan 2003 Copyright (C) 2003 Erdinç AKAN\nerakan@softhome.net",
+                    IDC_STATIC,36,15,188,16
+    DEFPUSHBUTTON   "OK",IDOK,90,123,49,13,WS_GROUP
+    LTEXT           "Yağmur, size yağmur sesini dinletir, huzur içinde stressiz çalışmanızı sağlar...\nAnlık susturma için menüden sesi kapat'a tıklayınız, Program system tray'e yerleşir geriye kalan bütün işlemleri oradan yapabilirsiniz.",
+                    IDC_STATIC,36,34,188,40
+    ICON            IDI_SIMSEK,IDC_STATIC,7,40,20,20
+    LTEXT           "Lütfen program hakkında görüş belirtmeyi de unutmayınız! (Email'im yukarıda)",
+                    IDC_STATIC,35,77,188,19
+    LTEXT           "Bu programı, Ingilterenin bizi 2 Nisan akşamı 2-0 yenmesi üzerine kafam bozulduğu için 4 saatte yazdım...",
+                    IDC_STATIC,36,98,183,17
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_YAGMURDISARDA       WAVE    DISCARDABLE     "res\\Rain-Gerardo_-7444_hifi.wav"
+IDR_GOKGURLE1           WAVE    DISCARDABLE     "res\\thunder.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 227
+        BOTTOMMARGIN, 119
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "Yagmur"
+    IDC_YAGMUR              "YAGMUR"
+END
+
+#endif    // Turkish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

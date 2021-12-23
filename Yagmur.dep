@@ -1,0 +1,14 @@
+# Microsoft Developer Studio Generated Dependency File, included by Yagmur.mak
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+.\Yagmur.cpp : \
+	".\StdAfx.h"\
+	
+
+.\Yagmur.rc : \
+	".\small.ico"\
+	".\Yagmur.ico"\
+	
